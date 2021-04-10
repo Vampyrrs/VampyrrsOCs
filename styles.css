@@ -1,10 +1,58 @@
 body {
-background-color: #F8F6F1;
+	font: normal 1em Garamond, serif;
+	background-color: #E6E6E6;
+	color: #1B1E25;
+}
+
+.line {
+ background: radial-gradient(circle, rgba(62,67,96,1) 80%, rgba(62,67,96,0) 100%);
+ max-width: 700px;
+ height: 1px;
+ margin: 0px auto;
 }
 
 .header {
   text-align: center;
   padding: 20px;
-  font-family: 'Times';
-  color: black;
 }
+
+.topnav {
+	background: #fff;
+	max-width: 70%;
+	overflow: hidden;
+	margin: 0px auto 15px;
+	padding: 10px 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.topnav li {
+	display: inline-block;
+	padding: 0px 5px;
+}
+
+.divider {
+	background: #3E4360;
+	border-radius: 50%;
+	height: 5px;
+	width: 5px;
+}
+
+#content {
+	position: absolute;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	left: 50%;
+	width: 1200px;
+	margin-left: -600px;
+}
+
+.charbox {
+	display: inline-block;
+	background-color: white;
+	width: 200px;
+	height: auto;
+	margin: 15px 50px;
+}
+
